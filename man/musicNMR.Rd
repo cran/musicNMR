@@ -1,19 +1,15 @@
 \name{musicNMR}
 \alias{musicNMR}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Save an Audio File from a Bruker Nuclear Magnetic Resonance Spectrum
 }
 \description{
 	This function converts monodimensional Nuclear Magnetic Resonance spectrum in audio file.
 	The spectrum is imported as Bruker format and the audio file is saved as *.wav 
-
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 musicNMR(source,destination)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{source}{
   	The folder's address where the Free Induction Decay is located 
@@ -22,6 +18,11 @@ musicNMR(source,destination)
   	Name of the .wav file 
 }
 }
+
+\value{
+No return value.
+}
+
 \details{
 This function uses 
 - three functions from the package \pkg{tuneR}:
@@ -31,10 +32,7 @@ This function uses
 }
 
 \references{
-Cacciatore Stefano, Edoardo Saccenti, Mario Piccioli
-Hypothesis: The sound of the individual metabolic phenotype?  Acoustic detection of NMR experiments
-OMICS: A Journal of Integrative Biology. Submitted.
-%% ~put references to the literature/web site here ~
+Cacciatore S, Saccenti E, Piccioli M. Hypothesis: the sound of the individual metabolic phenotype? Acoustic detection of NMR experiments. OMICS. 2015 Mar;19(3):147-56.
 }
 \author{
 Stefano Cacciatore
